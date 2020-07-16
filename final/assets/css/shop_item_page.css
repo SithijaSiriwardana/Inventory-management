@@ -1,0 +1,53 @@
+*{
+	margin-top:  0px;
+	padding-top:  0px;
+	
+}
+
+body{ /*background img eka set karaganna vidiya*/
+
+	background-color: blue;
+	background-image: url('../images/background.jpg');
+	background-size: cover;/*4to eka kadila thiyana velavata hadanna puluvan*/
+	height: 97vh;/*4to eka kadila thiyana velavata hadanna puluvan*/
+
+}
+
+.top-bar{
+
+	margin-top: -90px;
+	height: 90px;
+	width: 1504px;
+	background: gray;
+}
+
+.top-bar-links ul{
+
+	margin-top: -50px;
+	margin: 100px;
+	list-style: none;
+}
+
+.top-bar-links ul li{
+
+	padding:0 50px; /*link word athara space hadanava*/ 
+	display: inline-block;
+	margin-top: 35px;
+	border-right : 1px solid white; /*link word athara '|' lakuna danava*/
+
+}
+
+.top-bar-links ul li:last-child{ /*last child ge '|' anthimata thiyana border eka ain karannava*/
+	border: none;
+}
+
+.top-bar-links ul li a
+{
+
+	color: white;
+}
+
+.top-bar-links ul li a:hover
+{
+	color: #ffc107;
+}
